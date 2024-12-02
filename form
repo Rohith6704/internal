@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<link rel="stlessheet" href="stlyes.css">
+<body>
+<h2>User Registration Form</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" required><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" required><br>
+<label for="number">Number:</label>
+<input type="tel" name="number" id="number"><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
